@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "A test app to demonstrate a possible Nuxt 2.9.1 bug",
+  "author": "command-tab",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "4.0.0-rc11",
+    "@nuxtjs/proxy": "1.3.3",
+    "graphql-tag": "2.10.1",
+    "nuxt": "2.9.1"
+  }
+}
